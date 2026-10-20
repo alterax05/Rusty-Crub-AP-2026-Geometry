@@ -1,0 +1,2 @@
+/// Terrain
+pub enum Terrain {}
