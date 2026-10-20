@@ -1,0 +1,2 @@
+/// Direction
+pub enum Direction {}
