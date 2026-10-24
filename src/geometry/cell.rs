@@ -54,7 +54,7 @@ impl Cell{
         }
     }
 
-    pub fn distance (self, other: &Cell) -> u32{
+    pub fn distance (self, other: Cell) -> u32{
         (((self.q - other.q).abs() + (self.r - other.r).abs() + (self.s() - other.s()).abs() )/2) as u32
         //we could use this other implementation (not documented)
         //(((self.q - other.q).abs()).max( (self.r - other.r).abs()).max((self.s() - other.s()).abs())) as u32
